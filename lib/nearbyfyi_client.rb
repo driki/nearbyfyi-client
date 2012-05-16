@@ -1,0 +1,1 @@
+require 'nearbyfyi/client/version'

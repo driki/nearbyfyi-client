@@ -1,0 +1,1 @@
+require "nearbyfyi/representer/full/document_representer"

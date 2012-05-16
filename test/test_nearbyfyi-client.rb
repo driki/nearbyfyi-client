@@ -1,7 +1,8 @@
-require 'helper'
+require 'test/unit'
+require 'nearbyfyi/client'
 
 class TestNearbyfyiClient < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  def test_version_string
+    assert_equal Nearbyfyi.version_string, "Nearbyfyi version #{Nearbyfyi::Client::VERSION}"
   end
 end
